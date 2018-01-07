@@ -4,6 +4,10 @@ A verfied tableau prover for classical propositional logic (in NNF)
 This was mainly written as a template and proof-of-concept towards
 a more general framework for verified tableau provers.
 
+This has only been tested on Coq 8.5pl3, but it should work on all
+close versions, but won't on 8.7 or later without some minor changes
+(due to changes in extraction)
+
 # Structure
 
 ## Syntax
